@@ -20,6 +20,5 @@
         android:layout_gravity="center_horizontal"
         android:clickable="true"
         android:enabled="true"
-        android:checked="false"
-        android:onClick="changeBackground"/>
+        android:onClick="changeBackground" />
 </RelativeLayout>
