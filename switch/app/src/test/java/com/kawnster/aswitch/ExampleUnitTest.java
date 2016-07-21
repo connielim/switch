@@ -1,4 +1,4 @@
-package com.example.user.aswitch;
+package com.kawnster.aswitch;
 
 import org.junit.Test;
 

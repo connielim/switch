@@ -1,4 +1,4 @@
-package com.example.user.aswitch;
+package com.kawnster.aswitch;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

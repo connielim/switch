@@ -1,21 +1,21 @@
-package com.example.user.aswitch;
+package com.kawnster.aswitch;
 
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MotionEvent;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.RelativeLayout;
 import android.widget.Switch;
 
-public class MainSwitchScreen extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_switch_screen);
+        setContentView(R.layout.activity_main);
         Switch tempSwitch = (Switch) findViewById(R.id.switch1);
         final RelativeLayout mainSwitchScreen = (RelativeLayout) findViewById(R.id.mainScreen);
         tempSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
